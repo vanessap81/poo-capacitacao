@@ -1,4 +1,9 @@
 package exercicio04;
 
-public class Eletrodomestico {
+public interface Eletrodomestico {
+
+    public void ligar();
+    public void desligar();
+    public void verificarStatus();
+
 }
