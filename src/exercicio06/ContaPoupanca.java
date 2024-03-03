@@ -19,11 +19,11 @@ public class ContaPoupanca implements TransacaoBancaria {
 
     @Override
     public void sacar(double valor) {
-        if (saldo < valor) {
+        if (saldo < valor)
             System.out.println("Saldo indisponível");
-        } else {
+         else
             saldo -= valor;
-        }
+
     }
 
     @Override
